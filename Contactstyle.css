@@ -1,0 +1,1410 @@
+/* --------------------------------------------------------------------------------------
+                                  INSTALLED FONTS
+---------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "Poppins1";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Poppins-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins2";
+    font-style: normal;
+    font-weight: 600;
+    src: url("Poppins-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins3";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Poppins-SemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins2";
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x:  hidden;
+}
+section{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/* body{
+    background-color: brown;
+    height: 10000px;
+} */
+.prenav{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    /* height: 50px; */
+    padding: 10px;
+    background-color: rgb(0, 87, 51);
+}
+#navbar{
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 87, 51, 0.171);
+}
+#navbar button{
+    display: none;
+}
+#navbar .navlogo{
+    width: 15%;
+    height: 105px;
+    /* overflow: hidden; */
+    float: left;
+}
+.navlogo > img{
+    width: 200px;
+    margin: -40px 0 0 0;
+}
+#navbar #navul{
+    /* width: 80%; */
+    float: right;
+    height: auto;
+    margin: 0 8% 0 0;
+    /* background-color: red; */
+} #li{
+    list-style: none;
+    display: inline-block;
+    padding: 35px 10px 0 10px;
+    z-index: 2;
+}
+#li .a{
+    color: rgb(0, 87, 51);
+    text-decoration: none;
+    padding: 50px 50px 35px 50px;
+    font-size: 18px;
+    font-weight: 100;
+    transition: 0.5s;
+    /* z-index: 2; */
+}
+#li .a:hover{
+    color: rgb(144, 247, 161);
+}
+#navbar #navul .dropbtn:hover #dropdown{
+    height: 194px;
+    visibility: visible ;
+}
+#navbar #navul #dropdown{
+    height: 194px;
+    visibility: hidden;
+    width: auto;
+    text-align: left;
+    /* transition: 0.5s ease-in-out; */
+    position: absolute;
+    background-color: rgb(0, 87, 51);
+    margin: 37px 0;
+    padding: 0;
+    /* z-index: -2; */
+}
+#navbar .dropbtn #dropdown li{
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+    /* z-index: -2; */
+}
+.dropbtn #dropdown li a{
+    color: white;
+    text-decoration: none;
+}
+.dropbtn #dropdown li:hover{
+    background-color:rgb(144, 247, 161) ;
+}
+.dropbtn #dropdown li:hover a{
+    color: rgb(0, 87, 51);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+            /* END OF NAVBAR */
+            /* START OF FIRST DIV */
+
+
+
+
+
+
+
+
+
+
+
+      /* RESPONSIVE CSS for PHONE
+  -------------------------------------------------- */
+  @media screen and (max-width:767px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* RESPONSIVE CSS for Tab
+  -------------------------------------------------- */
+  
+  @media screen and (max-width:992px) {
+      
+    .prenav{
+        display: none;
+    }
+    .navbar button{
+        display: block;
+        float: right;
+        margin: 30px 20px;
+        background-color: rgb(0, 87, 51);
+        border: none;
+        padding: 4px 10px 0 10px;
+        cursor: pointer ;
+    }
+    .navbar button svg{
+        color: rgb(255, 255, 255);
+    }
+    #svg2{
+        display: none;
+        font-weight: bolder;
+    }
+    .navbar #navul{
+        display: none;
+        width: 90%;
+        height: 270px;
+        background-color:white ;
+        margin: -10px 5%;
+        box-shadow: 0 4px 15px 0 rgba(0, 87, 51, 0.342);
+        text-align: left;
+        border: 1px solid rgba(0, 0, 0, 0.226);
+    }
+    .navbar #navul #li{
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+        padding: 20px;
+    }
+    .navbar #navul .lia{
+        border-top: 5px solid rgb(0, 87, 51);
+    }
+    .navbar #navul #li:hover{
+        background-color: rgb(0, 87, 51);
+    }
+    .navbar #navul #li:hover a{
+        color: white;
+    }
+    .navbar #navul #li .a{
+        padding: 0;
+        color: rgb(0, 87, 51);
+        font-size: 15px;
+    }
+    .navbar #navul #dropdown{
+        margin: 20px 0 0 -20px;
+        width: 50%;
+    }
+
+  }
+
+
+
+  /* RESPONSIVE CSS for Tab
+  -------------------------------------------------- */
+  
+  @media screen and (max-width:992px) {
+      
+    .navlogo > img{
+        width: 180px;
+        margin: -30px 0 0 0;
+    }
+    .prenav{
+        display: none;
+    }
+    #navbar button{
+        display: block;
+        float: right;
+        margin: 30px 20px;
+        background-color: rgb(0, 87, 51);
+        border: none;
+        padding: 4px 10px 0 10px;
+        cursor: pointer ;
+    }
+    #navbar button svg{
+        color: rgb(255, 255, 255);
+    }
+    #svg2{
+        display: none;
+        font-weight: bolder;
+    }
+    #navbar #navul{
+        display: none;
+        width: 90%;
+        height: 270px;  
+        background-color:white ;
+        margin: -10px 5%;
+        box-shadow: 0 4px 15px 0 rgba(0, 87, 51, 0.342);
+        text-align: left;
+        border: 1px solid rgba(0, 0, 0, 0.226);
+    }
+    #navbar #navul #li{
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+        padding: 20px;
+    }
+    #navbar #navul .lia{
+        border-top: 5px solid rgb(0, 87, 51);
+    }
+    #navbar #navul #li:hover{
+        background-color: rgb(0, 87, 51);
+    }
+    #navbar #navul #li:hover a{
+        color: white;
+    }
+    #navbar #navul #li .a{
+        padding: 0;
+        color: rgb(0, 87, 51);
+        font-size: 15px;
+    }
+    #navbar #navul #dropdown{
+        margin: 20px 0 0 -20px;
+        width: 50%;
+    }
+
+  }
+  
+  
+
+
+
+         /* END OF NAV */
+
+
+
+
+
+
+
+/* ========CONTACT STYLE ================== */
+
+#ga{
+    background-image: url("cartoon.jpg");
+    height: 330px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-color: rgba(1, 65, 12, 0.486);
+    background-blend-mode: color-burn; 
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+#ga h1{
+    text-align: center;
+    /* color: rgba(1, 1, 39, 0.863); */
+    color: white;
+    margin-top: 120px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#ga svg{
+    /* color: rgba(1, 1, 39, 0.863); */
+    color: white;
+}
+#ga a{
+    text-decoration: none;
+    font-size: 16px;
+    /* color: rgba(1, 1, 39, 0.863); */
+    color: white;
+    transition: .4s ease-in-out;
+}
+#ga a:hover{
+    transition: .4s ease-in-out;
+    font-weight: 400;
+    color: skyblue;
+}
+#ge{
+    background-color:rgb(255, 255, 255);
+    height:auto;
+    width: 100%;
+    overflow: hidden;
+   
+}
+#ge p {
+    margin-top: 7%;
+    font-size: large;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(13, 113, 153, 0.836);
+    text-align: center;
+}
+#ge h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(1, 1, 39, 0.863);
+    text-align: center;
+    margin-top: 0;
+}
+#gea{
+    background-color: white;
+    height: auto;
+    width: 57%;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 8px;
+    box-shadow: 0 4px 7px 3px rgba(0, 87, 51, 0.26);
+    padding: 3%;
+    float: left;
+    overflow: hidden;
+    
+}
+.gu{
+    border: none;
+    transition: .4s ease-in-out;
+    color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3%;
+    height: 60px;
+    width: 45%;
+    overflow: hidden;
+    outline: none;
+    margin-left: 2.5%;
+    background-color:rgb(144, 247, 161) ;
+}
+.gu:hover {
+   outline: none;
+}
+.gu:active{
+    outline: none;
+}
+#gut{
+    margin-top: 3%;
+    margin-left: 2.5%;
+}
+textarea{
+    border: none;
+    transition: .4s ease-in-out;
+    color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3%;
+    height: 100px;
+    margin-top: 2.5%;
+    width:93%;
+    overflow: hidden;
+    outline: none;
+    margin-left: 2.5%;
+    background-color:rgb(144, 247, 161) ;
+}
+textarea:hover {
+   outline: none;
+}
+textarea:active{
+    outline: none;
+}
+#gea button{
+    border: none;
+    transition: .4s ease-in-out;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 1%;
+    height: 50px;
+    margin-top: 2.5%;
+    width:93%;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 2.5%;
+    background-color:rgb(0, 87, 51);
+    transition: .4s ease-in-out;
+    
+}
+#gea button:hover{
+animation-name: example;
+    animation-duration: 4s;
+    transition: .4s ease-in-out;
+    animation-iteration-count: infinite;
+}
+    @keyframes example {
+        0%   {background-color:(to right, rgb(144, 247, 161) );}
+        25%  {background-color:(to right, skyblue);}
+        50%  {background-color: rgba(8, 8, 189, 0.411);}
+        100% {background-color: green;}
+    }
+
+#geb{
+    /* background-color: rgb(18, 78, 78); */
+    background-color:white;
+    /* opacity: 80%; */
+    height: auto;
+    float: right;
+    width: 28%;
+    border-radius: 8px;
+    box-shadow: 0 4px 7px 3px rgba(0, 87, 51, 0.26);
+    margin-right: 5%;
+    display: flex;
+     justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3%;
+    overflow: hidden;
+}
+#four{
+    /* background-color: chocolate; */
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+#fac{
+    color:rgb(144, 247, 161); 
+    padding: 2%;
+    margin-top: 3%;
+}
+#geb h6{
+    color: rgba(1, 1, 39, 0.863);
+    font-size: 20px;
+    margin-left: 3%;
+}
+.five{
+    text-decoration: none;
+    margin-left: 3%;
+    color: rgb(179, 172, 172);
+    font-size: 13px;
+    transition: .4s ease-in-out;
+}
+.five:hover{
+   color:rgb(2, 109, 64);
+    transition: .4s ease-in-out;
+    font-weight: 600;
+}
+
+#za{
+    background-color: white;
+    height: 600px;
+    width: 100;
+    margin-top: 5%;
+    overflow: hidden;
+}
+#ze{
+    width: 28%;
+    float: left;
+    margin-left: 5%;
+    background-color: rgb(144, 247, 161);
+    color: #fff;
+    height:420px;
+    overflow: hidden;
+    border-radius: 5px;
+    position:relative;
+    z-index: 1;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#ze::after {
+    content: " ";
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(144, 247, 161);
+}
+#ze ul{
+    list-style-type: disc;
+    font-size: 25px;
+}
+#ze p{
+    font-size: 15px;
+}
+#zi{
+    background-color:rgb(144, 247, 161);
+    height: 420px;
+    width: 55%;
+    margin-right: 5%;
+    margin-top: 5%;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    float: right;
+    overflow: hidden;
+}
+
+
+
+
+
+/* ======footer================= */
+.footer1 img{
+    width: 150px;
+    overflow: hidden;
+}
+.footernav{
+    width:100%;overflow-x: hidden;
+    height:400px;
+    background-color:rgb(0, 87,51);color: white;
+    display: flex;gap:10px;padding:1px;
+    }
+    .footernav a{color: rgb(7, 255, 7);text-decoration:none;}
+    .details{
+        width:30%;padding:10px;
+        height:auto;margin: auto;
+        /* border: 2px solid green; */
+        /* text-align: center; */
+    }
+    .footer1 img{
+        width: 180px;
+    }
+    .Flink{
+        font-size: large;
+    }.footer2{
+        text-align: left;padding-left:30px;
+    }.footer2 ul li{
+       
+        line-height:50px;
+    }.footer2 ul li a{
+        color: white;transition:0.4s ease;
+    }.footer2 ul li a:hover{
+        color:rgb(84, 241, 84);transition:0.4s ease;
+    }
+    .footer3{
+        background-color: rgba(144, 247, 161, 0.205);border-radius:10px;
+    }
+    .footer3 .icons{
+        display: inline-flex;gap:30px;
+    }.footer3 .icons img{
+        width:30px;height: 30px;
+        margin:0px 3px 0px 8px;
+    }.postnav{
+        height:40px;
+    }
+    .postnav .copy{
+        float: left;
+    }.postnav .links{
+        float: right;margin-right:4%;
+    }.postnav .links a{
+        padding:10px;text-decoration: none;color: white;
+    }
+    
+/* ======================================circles============== */
+.circle{
+    opacity:30%;
+    
+}  
+.circle1{
+    width:20px;height:20px;border: 2px solid rgb(0, 0, 0);
+    position: relative;top:40%;border-radius:20px;
+    border-radius:20px;opacity:30%;
+   animation-name:move2;
+    animation-timing-function:linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+.bubble1{
+    border: 2px solid rgb(255, 246, 246);
+    position: relative;top:40%;border-radius:20px;
+    left:0%;width:30px;height:30px;
+    animation-name:bubble1;
+    animation-timing-function:linear;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}@keyframes bubble1 {
+    from{left:0%;}to{left:30%;}
+}
+.bubble2{
+    border: 2px solid rgb(255, 246, 246);width:30px;height:30px;
+    position: relative;top:49%;border-radius:20px;
+    left:3%;animation-name:bubble2;
+    animation-timing-function:linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;  
+}@keyframes bubble2 {
+    from{left:3%;}to{left:40%;}
+}.bubble3{
+    left: 17%;width:40px;height:40px; top:-3% ;
+    border: 2px solid rgb(255, 246, 246);
+    position: relative;top:40%;border-radius:20px;
+    animation-name:bubble3;
+    animation-timing-function:linear;
+    animation-duration:8s;
+    animation-iteration-count: infinite;  
+}@keyframes bubble3 {
+    from{left:17%; top:3%;}to{left:37%;top:10%;}
+}.bubble4{
+    left: 20%;
+    border: 2px solid rgb(255, 246, 246);width:30px;height:30px;
+    position: relative;border-radius:20px;
+    animation-name:bubble4;
+    animation-timing-function:linear;
+    animation-duration:8s;
+    animation-iteration-count: infinite;  
+}@keyframes bubble4 {
+    from{left:20%; top:48%;}to{left:37%;top:0%;}
+}
+/* =====================================bubble2============================== */
+.bubble11{
+    left: -10%;width:30px;height:30px;
+    animation-name:bubble11;
+    animation-timing-function:linear;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}@keyframes bubble11 {
+    from{left:-10%;}to{left:-30%;}
+}
+.bubble22{
+    left:-3%;animation-name:bubble22;
+    animation-timing-function:linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;  
+}@keyframes bubble22 {
+    from{left:-3%;}to{left:-40%;}
+}.bubble33{
+    left: -17%;width:40px;height:40px; top:23% ;
+    animation-name:bubble33;
+    animation-timing-function:linear;
+    animation-duration:8s;
+    animation-iteration-count: infinite;  
+}@keyframes bubble33 {
+    from{left:-17%; top:23%;}to{left:-37%;top:30%;}
+}.bubble44{
+    left: -20%;top:8%;
+    animation-name:bubble44;
+    animation-timing-function:linear;
+    animation-duration:8s;
+    animation-iteration-count: infinite;  
+}@keyframes bubble44 {
+    from{left:-20%; top:8%;}to{left:-37%;top:10%;}
+}
+
+/* ================================================================================== */
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================== */
+
+
+
+/* =================responsiveness========== */
+
+@media screen and (max-width:1192px){
+    .sellFish{
+        width:43%;height:auto;
+    }
+}
+@media screen and (max-width:992px) {
+    .sellFish{
+        width:40%;height:auto;
+    }
+    .Fdetails{
+        margin-top:200px;
+    }
+    .Fdetails button{
+        margin:auto 33%;
+    }
+    .head .txt span{
+        color: white;font-family:"Poppins1";
+        font-size:30px;
+    }
+    .footernav{
+        display: flex;height:auto;flex-wrap: wrap;padding-top:10px;
+    }
+    .footernav::after{
+        content:none;
+        /* background-image: url("roll.png"); */
+         width:100%;
+         position:absolute;top:508.3%;
+         height:70px;
+         background-repeat: repeat-x;animation-name:move;
+         animation-timing-function:linear;
+         animation-duration:7s;
+         animation-play-state: running;
+         animation-iteration-count: infinite;
+         
+     }
+    .footernav::before{
+        content:none;
+        /* background-image: url("roll.png"); */
+         width:100%;
+         position:absolute;top:508.3%;
+         height:70px;
+         background-repeat: repeat-x;animation-name:move1;
+         animation-timing-function:linear;
+         animation-duration:7s;
+         animation-play-state: running;
+         animation-iteration-count: infinite;}
+         
+  .details{
+        width:30%;height: auto;padding: 0;
+    }
+    
+    .footer3{
+        width:70%;text-align: center;margin: auto 15%;
+    }
+
+
+
+    .bubble1{
+        border: 2px solid rgb(255, 246, 246);
+        position: relative;top:400px;border-radius:20px;
+        left:0%;width:40px;height:40px;
+        animation-name:bubble1;
+        animation-timing-function:linear;
+        animation-duration: 17s;
+        animation-iteration-count: infinite;
+    }@keyframes bubble1 {
+        from{left:0%;}to{left:30%;}
+    }
+    .bubble2{
+        border: 2px solid rgb(255, 246, 246);width:30px;height:30px;
+        position: relative;top:490px;border-radius:20px;
+        left:3%;animation-name:bubble2;
+        animation-timing-function:linear;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble2 {
+        from{left:3%;top:490px;}to{left:40%;top:290px;}
+    }.bubble3{
+        left: 17%;width:40px;height:40px; top:-3% ;
+        border: 2px solid rgb(255, 246, 246);
+        position: relative;top:400px;border-radius:20px;
+        animation-name:bubble3;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble3 {
+        from{left:17%; top:400px;}to{left:37%;top:100px;}
+    }.bubble4{
+        left: 20%;
+        border: 2px solid rgb(255, 246, 246);width:37px;height:37px;
+        position: relative;border-radius:20px;
+        animation-name:bubble4;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble4 {
+        from{left:20%; top:480px;}to{left:37%;top:0px;}
+    }
+    /* =====================================bubble2============================== */
+    .bubble11{
+        left: -10%;width:30px;height:30px;
+        animation-name:bubble11;
+        animation-timing-function:linear;
+        animation-duration: 17s;
+        animation-iteration-count: infinite;
+    }@keyframes bubble11 {
+        from{left:10%;top:0px;}to{left:30%;top:-490px;}
+    }
+    .bubble22{
+        left:3%;animation-name:bubble22;
+        animation-timing-function:linear;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble22 {
+        from{left:3%;top:0px;}to{left:70%;top:-390px;}
+    }.bubble33{
+        left: 17%;width:40px;height:40px; top:23% ;
+        animation-name:bubble33;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble33 {
+        from{left:27%; top:0px;}to{left:77%;top:-490px;}
+    }.bubble44{
+        left: 20%;top:8%;
+        animation-name:bubble44;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble44 {
+        from{left:80%; top:0px;}to{left:7%;top:-490px;}
+    }
+
+}
+
+
+
+
+
+/* =============tab responsiveness for Contact=====================
+ */
+
+
+
+ @media screen and (max-width:992px) {
+
+    #ga{
+        height: 300px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgba(1, 65, 12, 0.486);
+        background-blend-mode: color-burn; 
+        background-attachment: fixed;
+        background-size: cover ;
+        overflow: hidden;
+    }
+    #ga h1{
+        text-align: center;
+        color: white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /* margin-top: 18%; */
+        margin-top: 150px;
+        font-size: 40px;
+    }
+    #ga svg{
+        color: white;
+    }
+    #ga a{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        transition: .4s ease-in-out;
+    }
+    #ga a:hover{
+        transition: .4s ease-in-out;
+        font-weight: 400;
+        color: skyblue;
+    }
+    #ge{
+        /* background-color: fuchsia; */
+        height:auto;
+        width: 100%;
+        /* overflow: hidden; */
+       
+    }
+    #ge p {
+        margin-top: 7%;
+        font-size: large;
+        font-weight: 600;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgba(13, 113, 153, 0.836);
+        text-align: center;
+    }
+    #ge h1{
+        font-size: 40px;
+        font-weight: 600;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgba(1, 1, 39, 0.863);
+        text-align: center;
+        margin-top: 0;
+    }
+    #gea{
+        background-color: white;
+        height: auto;
+        width: 90%;
+        margin-top: 3%;
+        border-radius: 8px;
+        padding: 3%;
+        overflow: hidden;
+        
+    }
+    .gu{
+        border: none;
+        transition: .4s ease-in-out;
+        color: gray;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 3%;
+        height: 60px;
+        width: 45%;
+        overflow: hidden;
+        outline: none;
+        margin-left: 2.5%;
+        background-color:rgb(144, 247, 161) ;
+    }
+    .gu:hover {
+       outline: none;
+    }
+    .gu:active{
+        outline: none;
+    }
+    #gut{
+        margin-top: 3%;
+        margin-left: 2.5%;
+    }
+    textarea{
+        border: none;
+        transition: .4s ease-in-out;
+        color: gray;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 3%;
+        height: 100px;
+        margin-top: 2.5%;
+        width:93%;
+        overflow: hidden;
+        outline: none;
+        margin-left: 2.5%;
+        background-color:rgb(144, 247, 161) ;
+    }
+    textarea:hover {
+       outline: none;
+    }
+    textarea:active{
+        outline: none;
+    }
+    #gea button{
+        border: none;
+        transition: .4s ease-in-out;
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 1%;
+        height: 50px;
+        margin-top: 2.5%;
+        width:93%;
+        overflow: hidden;
+        text-decoration: none;
+        margin-left: 2.5%;
+        background-color:rgb(0, 87, 51);
+        transition: .4s ease-in-out;
+        
+    }
+    #gea button:hover{
+    animation-name: example;
+        animation-duration: 4s;
+        transition: .4s ease-in-out;
+        animation-iteration-count: infinite;
+    }
+        @keyframes example {
+            0%   {background-color:(to right, rgb(144, 247, 161) );}
+            25%  {background-color:(to right, skyblue);}
+            50%  {background-color: rgba(8, 8, 189, 0.411);}
+            100% {background-color: green;}
+        }
+    
+    #geb{
+        background-color:white;
+        height: auto;
+        width: 90%;
+        border-radius: 8px;
+        padding: 3%;
+        display: flex;
+         justify-content: space-between;
+        flex-direction: column;
+        margin-top: 3%;
+        overflow: hidden;
+    }
+    #four{
+        /* background-color: chocolate; */
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    #fac{
+        color:rgb(144, 247, 161); 
+        padding: 1.5%;
+        margin-top: 3%;
+
+    }
+    #geb h6{
+        color: rgba(1, 1, 39, 0.863);
+        font-size: 23px;
+        margin-left: 1.5%;
+    }
+    .five{
+        text-decoration: none;
+        margin-left: 1.5%;
+        color: rgb(179, 172, 172);
+        font-size: 15px;
+        transition: .4s ease-in-out;
+    }
+    .five:hover{
+       color:rgb(2, 109, 64);
+        transition: .4s ease-in-out;
+        font-weight: 600;
+    }
+    
+    #za{
+        background-color: white;
+        height: 750px;
+        overflow: hidden;
+        width: 100%;
+        margin-top: 5%;
+    }
+    #ze{
+        width: 90%;
+        background-color: rgb(144, 247, 161);
+        color: #fff;
+        overflow: hidden;
+        height:300px;
+        border-radius: 5px;
+        position:relative;
+        z-index: 1;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    #ze::after {
+        visibility: hidden;
+    }
+    #ze ul{
+        list-style-type: disc;
+        font-size: 23px;
+    }
+    #ze p{
+        font-size: 12px;
+    }
+    #zi{
+        background-color:rgb(144, 247, 161);
+        height:350px;
+        width: 90%;
+        margin-top: 5%;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* =============Phone responsiveness for Contact=====================
+ */
+
+
+
+ @media screen and (max-width:767px) {
+
+    #ga{
+        background-image: url("cartoon.jpg");
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgba(1, 65, 12, 0.486);
+        background-blend-mode: color-burn; 
+        background-attachment: fixed;
+        background-size: cover ;
+        overflow: hidden;
+    }
+    #ga h1{
+        text-align: center;
+        color: white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /* margin-top: 50%; */
+        font-size: 40px;
+    }
+    #ga svg{
+        color: white;
+    }
+    #ga a{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        transition: .4s ease-in-out;
+    }
+    #ga a:hover{
+        transition: .4s ease-in-out;
+        font-weight: 400;
+        color: skyblue;
+    }
+    #ge{
+        /* background-color: fuchsia; */
+        height:auto;
+        width: 100%;
+        /* overflow: hidden; */
+       
+    }
+    #ge p {
+        margin-top: 7%;
+        font-size: large;
+        font-weight: 600;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgba(13, 113, 153, 0.836);
+        text-align: center;
+    }
+    #ge h1{
+        font-size: 40px;
+        font-weight: 600;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgba(1, 1, 39, 0.863);
+        text-align: center;
+        margin-top: 0;
+    }
+    #gea{
+        background-color: white;
+        height: auto;
+        width: 90%;
+        margin-top: 3%;
+        border-radius: 8px;
+        padding: 3%;
+        overflow: hidden;
+        
+    }
+    .gu{
+        border: none;
+        transition: .4s ease-in-out;
+        color: gray;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 3%;
+        height: 60px;
+        width: 45%;
+        overflow: hidden;
+        outline: none;
+        margin-left: 2.5%;
+        background-color:rgb(144, 247, 161) ;
+    }
+    .gu:hover {
+       outline: none;
+    }
+    .gu:active{
+        outline: none;
+    }
+    #gut{
+        margin-top: 3%;
+        margin-left: 2.5%;
+    }
+    textarea{
+        border: none;
+        transition: .4s ease-in-out;
+        color: gray;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 3%;
+        height: 100px;
+        margin-top: 2.5%;
+        width:93%;
+        overflow: hidden;
+        outline: none;
+        margin-left: 2.5%;
+        background-color:rgb(144, 247, 161) ;
+    }
+    textarea:hover {
+       outline: none;
+    }
+    textarea:active{
+        outline: none;
+    }
+    #gea button{
+        border: none;
+        transition: .4s ease-in-out;
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 1%;
+        height: 50px;
+        margin-top: 2.5%;
+        width:93%;
+        overflow: hidden;
+        text-decoration: none;
+        margin-left: 2.5%;
+        background-color:rgb(0, 87, 51);
+        transition: .4s ease-in-out;
+        
+    }
+    #gea button:hover{
+    animation-name: example;
+        animation-duration: 4s;
+        transition: .4s ease-in-out;
+        animation-iteration-count: infinite;
+    }
+        @keyframes example {
+            0%   {background-color:(to right, rgb(144, 247, 161) );}
+            25%  {background-color:(to right, skyblue);}
+            50%  {background-color: rgba(8, 8, 189, 0.411);}
+            100% {background-color: green;}
+        }
+    
+    #geb{
+        background-color:white;
+        height: auto;
+        width: 90%;
+        border-radius: 8px;
+        padding: 3%;
+        display: flex;
+         justify-content: space-between;
+        flex-direction: column;
+        margin-top: 3%;
+        overflow: hidden;
+    }
+    #four{
+        /* background-color: chocolate; */
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    #fac{
+        color:rgb(144, 247, 161); 
+        padding: 1.5%;
+        margin-top: 3%;
+
+    }
+    #geb h6{
+        color: rgba(1, 1, 39, 0.863);
+        font-size: 23px;
+        margin-left: 1.5%;
+    }
+    .five{
+        text-decoration: none;
+        margin-left: 1.5%;
+        color: rgb(179, 172, 172);
+        font-size: 15px;
+        transition: .4s ease-in-out;
+    }
+    .five:hover{
+       color:rgb(2, 109, 64);
+        transition: .4s ease-in-out;
+        font-weight: 600;
+    }
+    
+    #za{
+        background-color: white;
+        height: 750px;
+        overflow: hidden;
+        width: 100%;
+        margin-top: 5%;
+    }
+    #ze{
+        width: 90%;
+        background-color: rgb(144, 247, 161);
+        color: #fff;
+        height:300px;
+        border-radius: 5px;
+        overflow: hidden;
+        position:relative;
+        z-index: 1;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    #ze::after {
+        visibility: hidden;
+    }
+    #ze ul{
+        list-style-type: disc;
+        font-size: 23px;
+    }
+    #ze p{
+        font-size: 12px;
+    }
+    #zi{
+        background-color:rgb(144, 247, 161);
+        height:350px;
+        width: 90%;
+        margin-top: 5%;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+ }
+
+
+ /* =============PHONE=========== */
+ @media screen and (max-width:892px){
+     .footer1{
+         width:80%;
+     }
+     ul li{
+         list-style: none;
+     }
+     .footer2{
+         text-align: center;
+     }
+ }
+ 
+ 

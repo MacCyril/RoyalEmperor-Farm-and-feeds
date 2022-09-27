@@ -1,0 +1,923 @@
+/* --------------------------------------------------------------------------------------
+                                  INSTALLED FONTS
+---------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "Poppins1";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Poppins-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins2";
+    font-style: normal;
+    font-weight: 600;
+    src: url("Poppins-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins3";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Poppins-SemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins2";
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/* body{
+    background-color: brown;
+    height: 10000px;
+} */
+.prenav{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    /* height: 50px; */
+    padding: 10px;
+    background-color: rgb(0, 87, 51);
+}
+#navbar{
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 87, 51, 0.171);
+}
+#navbar button{
+    display: none;
+}
+#navbar .navlogo{
+    width: 15%;
+    height: 105px;
+    /* overflow: hidden; */
+    float: left;
+}
+.navlogo > img{
+    width: 200px;
+    margin: -40px 0 0 0;
+}
+#navbar #navul{
+    /* width: 80%; */
+    float: right;
+    height: auto;
+    margin: 0 8% 0 0;
+    /* background-color: red; */
+} #li{
+    list-style: none;
+    display: inline-block;
+    padding: 35px 10px 0 10px;
+    z-index: 2;
+}
+#li .a{
+    color: rgb(0, 87, 51);
+    text-decoration: none;
+    padding: 50px 50px 35px 50px;
+    font-size: 18px;
+    font-weight: 100;
+    transition: 0.5s;
+    /* z-index: 2; */
+}
+#li .a:hover{
+    color: rgb(144, 247, 161);
+}
+#navbar #navul .dropbtn:hover #dropdown{
+    height: 194px;
+    visibility: visible ;
+}
+#navbar #navul #dropdown{
+    height: 194px;
+    visibility: hidden;
+    width: auto;
+    text-align: left;
+    /* transition: 0.5s ease-in-out; */
+    position: absolute;
+    background-color: rgb(0, 87, 51);
+    margin: 37px 0;
+    padding: 0;
+    /* z-index: -2; */
+}
+#navbar .dropbtn #dropdown li{
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+    /* z-index: -2; */
+}
+.dropbtn #dropdown li a{
+    color: white;
+    text-decoration: none;
+}
+.dropbtn #dropdown li:hover{
+    background-color:rgb(144, 247, 161) ;
+}
+.dropbtn #dropdown li:hover a{
+    color: rgb(0, 87, 51);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+            /* END OF NAVBAR */
+            /* START OF FIRST DIV */
+
+.homeSec{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/Home1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.116);
+    background-blend-mode: color-burn;
+    overflow: hidden;
+}
+.homeTxt{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    text-align: center;
+    margin: 200px 0 0 0;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    overflow: hidden;
+    font-weight:bolder;
+}
+.homeTxt h3{
+    font-size: 20px;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+.homeTxt h3 span{
+    border-bottom: 2px solid rgb(0, 87, 51);
+    padding: 0 150px 0 0;
+    text-align: left;
+}
+.homeTxt h2 {
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.homeTxt h2 span{
+    border-bottom: 6px solid rgb(2, 109, 64);
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.homeTxt button{
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    transition: 0.5s;
+    border: 2px solid rgb(255, 255, 255);
+}
+.homeTxt button:hover{
+    background-color: transparent;
+    color: white;
+}
+           /* END OF FIRST DIV */
+           /* START OF SECOND DIV */
+.homeThird{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.abouttext{
+    width: 60%;
+    height: auto;
+    /* background-color: rgb(255, 0, 0); */
+    padding: 50px;
+    float: left;
+}
+.abouttext h4{
+    color: rgb(0, 87, 51);
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.abouttext h2{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 87, 51);
+}
+.abouttext p{
+    color: rgba(0, 0, 0, 0.747);
+    line-height: 70px;
+}
+.aboutitems{
+    width: 90%;
+    /* height:300px; */
+    /* background-color: blue; */
+    margin-top: 20px;
+    overflow: hidden;
+}
+.aboutitems ul{
+    width: auto;
+    float: left;
+}
+.aboutitems ul svg{
+    color: rgb(0, 87, 51);
+}
+.aboutitems ul li{
+    line-height: 55px;
+    color: rgba(0, 0, 0, 0.651);
+    list-style: none;
+}
+.aboutprogressbar{
+    width: 50%;
+    height: 200px;
+    /* background-color: red; */
+    float: right;
+}
+.aboutprogressbar .apbar{
+    width: 180px;
+    height: 180px;
+    /* background-color: fuchsia; */
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(2, 109, 64)  ;
+    padding: 60px 0;
+    border: 8px solid rgb(144, 247, 161);
+    border-top-color:rgb(0, 87, 51) ;
+}
+.aboutprogressbar span{
+    font-size: 25px;
+    color: rgb(2, 109, 64)  ;
+}
+.aboutimg{
+    width: 35%;
+    float: left;
+    /* background-color: gold; */
+    background-image: url("img/Home2.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* background-color: rgba(0, 87, 51, 0.233); */
+    background-blend-mode: color-burn;
+    height: 500px;
+    transition: 00.5s ease-in-out;
+    margin: 30px 10px;
+}
+.homeThird:hover .aboutimg{
+    background-color: rgba(144, 247, 161, 0.171);
+}
+
+
+
+
+
+
+           /* END OF THIRD DIV */
+           /* START OF FOURTH DIV */
+
+
+    .homeFourth{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        overflow: hidden;
+    }
+    .fourthHead{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .fourthHead h4{
+        color: rgb(2, 109, 64);
+        font-size: 18px;
+        font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .fourthHead h6{
+        color: rgb(2, 109, 64);
+        margin: 10px;
+        font-size: 50px;
+        font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .fourthHead p{
+        color: rgba(0, 0, 0, 0.671);
+        font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .fourthImg{
+        width:100%;
+        float: left;
+        height: auto;
+        margin: 50px 0;
+    }
+    .fourthImg .hatchery{
+        width: 31%;
+        float: left;
+        margin: 0 1.1%;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 4px 7px 3px rgba(0, 87, 51, 0.26);
+    }
+    .hatchImg{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .hatchImg img{
+        width: 100%;
+        height: 300px;
+        transition: 0.5s;
+    }
+    .hatchTxt{
+        width: 100%;
+        padding:10px 20px 20px 20px;
+    }
+    .hatchTxt h4{
+        color: rgb(2, 109, 64);
+        font-size: 20px;
+        font-family: "Poppins3";
+    }
+    .hatchTxt p{
+        color: rgba(0, 0, 0, 0.685);
+        margin: 20px 0;
+    }
+    .hatchTxt hr{
+        border-radius: 50%;
+        border: 1pt solid rgb(0, 0, 0);
+        transition: 0.2s;
+        margin: 0 0 20px 0;
+    }
+    .hatchTxt button{
+        padding: 8px 20px;
+        background-color: transparent;
+        border: none;
+        font-family: "Poppins3";
+        transition: 0.2s;
+        font-size: 15px;
+        cursor: pointer;
+        color: rgb(2, 109, 64);
+    }
+    .hatchTxt button:hover{
+        color: rgb(144, 247, 161);
+    }
+    .hatchery:hover hr{
+        border: 1pt solid rgb(144, 247, 161);
+    }
+    .hatchery:hover img{
+        transform: scale(1.1);
+    }
+
+    .hatchery:hover .hatchImg{
+        transform: rotate(1deg);
+    }
+
+    /* ======footer================= */
+
+    .footernav{
+        width:100%;
+        height:400px;
+        background-color:rgb(0, 87,51);color: white;
+        display: flex;gap:10px;padding:1px;
+        }
+        .footernav a{color: rgb(7, 255, 7);text-decoration:none;}
+        .details{
+            width:30%;padding:10px;
+            height:auto;margin: auto;
+            /* border: 2px solid green; */
+            /* text-align: center; */
+        }
+        .footer1 img{
+            width: 180px;
+        }
+        .Flink{
+            font-size: large;
+        }.footer2{
+            text-align: left;padding-left:30px;
+        }.footer2 ul li{
+           
+            line-height:50px;
+        }.footer2 ul li a{
+            color: white;transition:0.4s ease;
+        }.footer2 ul li a:hover{
+            color:rgb(84, 241, 84);transition:0.4s ease;
+        }
+        .footer3{
+            background-color: rgba(144, 247, 161, 0.205);border-radius:10px;
+        }
+        .footer3 .icons{
+            display: inline-flex;gap:30px;
+        }.footer3 .icons img{
+            width:30px;height: 30px;
+            margin:0px 3px 0px 8px;
+        }.postnav{
+            height:40px;
+        }
+        .postnav .copy{
+            float: left;
+        }.postnav .links{
+            float: right;margin-right:4%;
+        }.postnav .links a{
+            padding:10px;text-decoration: none;color: white;
+        }
+        
+    /* ======================================circles============== */
+    .circle{
+        opacity:30%;
+        
+    }  
+    .circle1{
+        width:20px;height:20px;border: 2px solid rgb(0, 0, 0);
+        position: relative;top:40%;border-radius:20px;
+        border-radius:20px;opacity:30%;
+       animation-name:move2;
+        animation-timing-function:linear;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+    }
+    .bubble1{
+        border: 2px solid rgb(255, 246, 246);
+        position: relative;top:40%;border-radius:20px;
+        left:0%;width:30px;height:30px;
+        animation-name:bubble1;
+        animation-timing-function:linear;
+        animation-duration: 17s;
+        animation-iteration-count: infinite;
+    }@keyframes bubble1 {
+        from{left:0%;}to{left:30%;}
+    }
+    .bubble2{
+        border: 2px solid rgb(255, 246, 246);width:30px;height:30px;
+        position: relative;top:49%;border-radius:20px;
+        left:3%;animation-name:bubble2;
+        animation-timing-function:linear;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble2 {
+        from{left:3%;}to{left:40%;}
+    }.bubble3{
+        left: 17%;width:40px;height:40px; top:-3% ;
+        border: 2px solid rgb(255, 246, 246);
+        position: relative;top:40%;border-radius:20px;
+        animation-name:bubble3;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble3 {
+        from{left:17%; top:3%;}to{left:37%;top:10%;}
+    }.bubble4{
+        left: 20%;
+        border: 2px solid rgb(255, 246, 246);width:30px;height:30px;
+        position: relative;border-radius:20px;
+        animation-name:bubble4;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble4 {
+        from{left:20%; top:48%;}to{left:37%;top:0%;}
+    }
+    /* =====================================bubble2============================== */
+    .bubble11{
+        left: -10%;width:30px;height:30px;
+        animation-name:bubble11;
+        animation-timing-function:linear;
+        animation-duration: 17s;
+        animation-iteration-count: infinite;
+    }@keyframes bubble11 {
+        from{left:-10%;}to{left:-30%;}
+    }
+    .bubble22{
+        left:-3%;animation-name:bubble22;
+        animation-timing-function:linear;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble22 {
+        from{left:-3%;}to{left:-40%;}
+    }.bubble33{
+        left: -17%;width:40px;height:40px; top:23% ;
+        animation-name:bubble33;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble33 {
+        from{left:-17%; top:23%;}to{left:-37%;top:30%;}
+    }.bubble44{
+        left: -20%;top:8%;
+        animation-name:bubble44;
+        animation-timing-function:linear;
+        animation-duration:8s;
+        animation-iteration-count: infinite;  
+    }@keyframes bubble44 {
+        from{left:-20%; top:8%;}to{left:-37%;top:10%;}
+    }
+    
+    /* ================================================================================== */
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ================================================================================== */
+    
+    
+    
+    /* =================responsiveness========== */
+    
+    @media screen and (max-width:1192px){
+        .sellFish{
+            width:43%;height:auto;
+        }
+    }
+    @media screen and (max-width:992px) {
+        .sellFish{
+            width:40%;height:auto;
+        }
+        .Fdetails{
+            margin-top:200px;
+        }
+        .Fdetails button{
+            margin:auto 33%;
+        }
+        .head .txt span{
+            color: white;font-family:"Poppins1";
+            font-size:30px;
+        }
+        .footernav{
+            display: flex;height:auto;flex-wrap: wrap;padding-top:10px;
+        }
+        .footernav::after{
+            content:none;
+            /* background-image: url("roll.png"); */
+             width:100%;
+             position:absolute;top:508.3%;
+             height:70px;
+             background-repeat: repeat-x;animation-name:move;
+             animation-timing-function:linear;
+             animation-duration:7s;
+             animation-play-state: running;
+             animation-iteration-count: infinite;
+             
+         }
+        .footernav::before{
+            content:none;
+            /* background-image: url("roll.png"); */
+             width:100%;
+             position:absolute;top:508.3%;
+             height:70px;
+             background-repeat: repeat-x;animation-name:move1;
+             animation-timing-function:linear;
+             animation-duration:7s;
+             animation-play-state: running;
+             animation-iteration-count: infinite;}
+             
+      .details{
+            width:30%;height: auto;padding: 0;
+        }
+        
+        .footer3{
+            width:70%;text-align: center;margin: auto 15%;
+        }
+    
+    
+    
+        .bubble1{
+            border: 2px solid rgb(255, 246, 246);
+            position: relative;top:400px;border-radius:20px;
+            left:0%;width:40px;height:40px;
+            animation-name:bubble1;
+            animation-timing-function:linear;
+            animation-duration: 17s;
+            animation-iteration-count: infinite;
+        }@keyframes bubble1 {
+            from{left:0%;}to{left:30%;}
+        }
+        .bubble2{
+            border: 2px solid rgb(255, 246, 246);width:30px;height:30px;
+            position: relative;top:490px;border-radius:20px;
+            left:3%;animation-name:bubble2;
+            animation-timing-function:linear;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;  
+        }@keyframes bubble2 {
+            from{left:3%;top:490px;}to{left:40%;top:290px;}
+        }.bubble3{
+            left: 17%;width:40px;height:40px; top:-3% ;
+            border: 2px solid rgb(255, 246, 246);
+            position: relative;top:400px;border-radius:20px;
+            animation-name:bubble3;
+            animation-timing-function:linear;
+            animation-duration:8s;
+            animation-iteration-count: infinite;  
+        }@keyframes bubble3 {
+            from{left:17%; top:400px;}to{left:37%;top:100px;}
+        }.bubble4{
+            left: 20%;
+            border: 2px solid rgb(255, 246, 246);width:37px;height:37px;
+            position: relative;border-radius:20px;
+            animation-name:bubble4;
+            animation-timing-function:linear;
+            animation-duration:8s;
+            animation-iteration-count: infinite;  
+        }@keyframes bubble4 {
+            from{left:20%; top:480px;}to{left:37%;top:0px;}
+        }
+        /* =====================================bubble2============================== */
+        .bubble11{
+            left: -10%;width:30px;height:30px;
+            animation-name:bubble11;
+            animation-timing-function:linear;
+            animation-duration: 17s;
+            animation-iteration-count: infinite;
+        }@keyframes bubble11 {
+            from{left:10%;top:0px;}to{left:30%;top:-490px;}
+        }
+        .bubble22{
+            left:3%;animation-name:bubble22;
+            animation-timing-function:linear;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;  
+        }@keyframes bubble22 {
+            from{left:3%;top:0px;}to{left:70%;top:-390px;}
+        }.bubble33{
+            left: 17%;width:40px;height:40px; top:23% ;
+            animation-name:bubble33;
+            animation-timing-function:linear;
+            animation-duration:8s;
+            animation-iteration-count: infinite;  
+        }@keyframes bubble33 {
+            from{left:27%; top:0px;}to{left:77%;top:-490px;}
+        }.bubble44{
+            left: 20%;top:8%;
+            animation-name:bubble44;
+            animation-timing-function:linear;
+            animation-duration:8s;
+            animation-iteration-count: infinite;  
+        }@keyframes bubble44 {
+            from{left:80%; top:0px;}to{left:7%;top:-490px;}
+        }
+    
+    }
+    
+    
+
+
+/* =============PHONE=========== */
+@media screen and (max-width:892px){
+    .footer1{
+        width:80%;
+    }
+    ul li{
+        list-style: none;
+    }
+    .footer2{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* RESPONSIVE CSS for PHONE
+  -------------------------------------------------- */
+  @media screen and (max-width:402px) {
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* RESPONSIVE CSS for Tab
+  -------------------------------------------------- */
+  
+  @media screen and (max-width:992px) {
+      
+    .navlogo > img{
+        width: 180px;
+        margin: -30px 0 0 0;
+    }
+    .prenav{
+        display: none;
+    }
+    #navbar button{
+        display: block;
+        float: right;
+        margin: 30px 20px;
+        background-color: rgb(0, 87, 51);
+        border: none;
+        padding: 4px 10px 0 10px;
+        cursor: pointer ;
+    }
+    #navbar button svg{
+        color: rgb(255, 255, 255);
+    }
+    #svg2{
+        display: none;
+        font-weight: bolder;
+    }
+    #navbar #navul{
+        display: none;
+        width: 90%;
+        height: 270px;  
+        background-color:white ;
+        margin: -10px 5%;
+        box-shadow: 0 4px 15px 0 rgba(0, 87, 51, 0.342);
+        text-align: left;
+        border: 1px solid rgba(0, 0, 0, 0.226);
+    }
+    #navbar #navul #li{
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+        padding: 20px;
+    }
+    #navbar #navul .lia{
+        border-top: 5px solid rgb(0, 87, 51);
+    }
+    #navbar #navul #li:hover{
+        background-color: rgb(0, 87, 51);
+    }
+    #navbar #navul #li:hover a{
+        color: white;
+    }
+    #navbar #navul #li .a{
+        padding: 0;
+        color: rgb(0, 87, 51);
+        font-size: 15px;
+    }
+    #navbar #navul #dropdown{
+        margin: 20px 0 0 -20px;
+        width: 50%;
+    }
+    .homeTxt h2 {
+        font-size: 45px;
+    }
+    .abouttext{
+        width: 90%;
+        margin: 0 5%;
+        text-align: justify;
+        padding: 50px 10px;
+    }
+    .aboutitems{
+        width: 100%;
+    }
+    .aboutitems ul{
+        width: 50%;
+        float: left;
+    }
+    .aboutitems .aboutprogressbar{
+        /* width: 100%; */
+        float: right;
+        /* margin: 0 25%; */
+        /* text-align: center; */
+    }
+    .aboutimg{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .abouttext p{
+        line-height: 40px;
+    }
+    .fourthImg .hatchery{
+        width: 90%;
+        margin: 2% 5%;
+    }
+    .homeTxt h3{
+        font-size: 15px;
+    }
+
+
+  }
+  
