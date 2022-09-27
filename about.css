@@ -751,11 +751,11 @@ section{
         cursor: pointer;
     }.writeups h1{
         font-size:30px;
-    }.writeups span{
+    }.writeups{
         width:90%;margin:0 5%;
     }
     .image{
-        height:auto;width:100%;
+        height:auto;width:90%;
         float: left;
         margin:20px;
         overflow: hidden;
