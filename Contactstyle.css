@@ -529,15 +529,15 @@ animation-name: example;
     background-color: white;
     height: 600px;
     width: 100;
-    margin-top: 5%;
-    overflow: hidden;
+    margin-top: 5%;font-weight: 600;
+    overflow: hidden;color: black;
 }
 #ze{
     width: 28%;
     float: left;
     margin-left: 5%;
     background-color: rgb(144, 247, 161);
-    color: #fff;
+    /* color: #fff; */
     height:420px;
     overflow: hidden;
     border-radius: 5px;
@@ -1118,7 +1118,7 @@ animation-name: example;
     #ze{
         width: 90%;
         background-color: rgb(144, 247, 161);
-        color: #fff;
+        /* color: #fff; */
         overflow: hidden;
         height:300px;
         border-radius: 5px;
@@ -1361,7 +1361,7 @@ animation-name: example;
     #ze{
         width: 90%;
         background-color: rgb(144, 247, 161);
-        color: #fff;
+        /* color: #fff; */
         height:300px;
         border-radius: 5px;
         overflow: hidden;
