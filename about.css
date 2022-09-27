@@ -542,7 +542,7 @@ section{
         margin:auto 33%;
     }
     .txtt{
-        line-height: 25px;
+        line-height: 15px;
     }
     .head .txt span{
         color: white;font-family:"Poppins1";
@@ -749,6 +749,10 @@ section{
         padding:0;
     }.writeups .active1,.active2,.active3{
         cursor: pointer;
+    }.writeups h1{
+        font-size:30px;
+    }.writeups span{
+        width:90%;margin:0 5%;
     }
     .image{
         height:auto;width:100%;
