@@ -887,8 +887,11 @@ section{
     .abouttext{
         width: 90%;
         margin: 0 5%;
-        text-align: justify;
+      
         padding: 50px 10px;
+    }
+    .abouttext p{
+        text-align: justify;
     }
     .aboutitems{
         width: 100%;
